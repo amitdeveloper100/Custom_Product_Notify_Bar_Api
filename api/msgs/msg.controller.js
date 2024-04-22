@@ -1,4 +1,4 @@
-const { setByShopid,getDesc } = require("../service/msg.service");
+const { setByShopid,getDesc } = require("./msg.service");
 
 module.exports = {
     setByShopid: (req, res) => {
